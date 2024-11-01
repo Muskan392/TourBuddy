@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: inline-block;
+}
+
+.img{
+   height: auto;
+    width: 400px;
+    border-radius: 15px;
+
+}
+.restaurant,.location,.rest_type{
+    position: relative;
+    margin: 10px;
+}
+.location{
+    margin: 10px;
+}
+.rest_type{
+    margin: 10px;
+}
+.distance{
+    position: absolute;
+    right: 5px;
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+ 
+    border: 20px solid white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+
+    
+}
+.card:hover{
+    background-color:  rgba(245, 245, 245, 0.9);
+    
+}
+.price{
+    position: absolute;
+    right: 5px;
+
+}
+.rest_name{
+    font-size: larger;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.rating{
+    color: white;
+    background: rgb(40, 183, 40);
+width: 40px;
+text-align: center;
+padding: 2px;
+position: absolute;
+right: 5px;
+    
+    border-radius: 10px;
+
+}
+
+.rest_type,.location{
+    font-size: 15px;
+    color: gray;
+}
+.distance{
+    font-size: 12px;
+    color: black;
+}
+.off {
+    background-color: rgba(43, 37, 213, 0.8); /* Slightly darker for contrast */
+    font-size: 16px;
+    font-family: cursive;
+    color: white;
+    width: 140px;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px; /* Adjusted for better positioning above the div */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+    cursor: pointer;
+}
+
+/* Hover effect to make it stand out even more */
+.off:hover {
+    transform: translateX(-50%) scale(1.05); /* Slight zoom on hover */
+    background-color: rgba(43, 37, 213, 0.9); /* Darker on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+.first,.second{
+    margin-left: 200px;
+}
+.brand{
+    color: red;
+    margin-right: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.search{
+    width: 250px;
+    height: 35px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 5px;
+}
+button{
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    position: relative;
+    bottom: 13px;
+    background-color: rgb(244, 239, 239);
+    color: gray;
+    border: none;
+}
+.head{
+    background-color: white;
+}
+.img5 img{
+    height: 50px;
+    width: 50px;
+   
+   
+}
+.dine,.del,.nig{
+    position: relative;
+    
+    bottom: 20px;
+    margin-left: 5px;
+    
+}
+.delivery,.dining,.night{
+    margin-left: 50px;
+}
+
+.second{
+    margin-top: 10px;
+    color: rgb(158, 156, 156);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+.third{
+    height: 500px;
+    
+}
+.content{
+  
+    margin-top: 10px;
+   
+}
+.right{
+    position: absolute;
+    right: 5px;
+    color: red;
+    font-size: 20px;
+ 
+   
+}
+.left{
+    font-size: 20px;
+    font-family: serif;
+}
+.img6 img{
+  
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    object-fit: cover;
+    display: block;
+   
+
+}
+.imgbar{
+    position: relative;
+}
+.item{
+    position: absolute;
+   
+bottom: 20px;
+ left: 20px;
+ color: rgb(251, 250, 250);
+}
+.up,.down{
+    margin: 5px;
+}
+.up{
+    font-size: 20px;
+}
+/* .imgbar:hover{
+    animation: backwards;
+    animation-play-state: inherit;
+    transition-duration: 1s;
+    
+    border-radius: 10px solid white;
+} */
+.imgbar {
+    position: relative;
+    overflow: hidden; /* Ensures content stays within the .imgbar container */
+    transition: transform 0.3s ease; /* Smooth transition for the effect */
+}
+
+.imgbar:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Optional: Add a hover effect for the image itself */
+.img6 img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.card {
+    position: relative;
+    overflow: hidden; /* Ensures content stays within the .imgbar container */
+    transition: transform 0.3s ease; /* Smooth transition for the effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Optional: Add a hover effect for the image itself */
+.card {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
